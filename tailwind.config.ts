@@ -9,9 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'message-gradient': 'linear-gradient(360deg, rgba(255, 207, 135, 0.62) 0%, rgba(255, 153, 0, 0) 79.41%);',
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
       },
     },
   },
