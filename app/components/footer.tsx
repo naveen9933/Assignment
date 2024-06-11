@@ -4,6 +4,7 @@ import instagramIcon from "../assets/Instagram.svg";
 import twitterIcon from "../assets/X.svg";
 import discordIcon from "../assets/image 11.svg";
 import discord from "../assets/Mask group.svg";
+import image from "../assets/image 3.svg"
 
 const Footer: React.FC = () => {
   return (
@@ -15,8 +16,9 @@ const Footer: React.FC = () => {
           TOINGG
         </span>
         {/* Tagline */}
-        <span className='text-white pt-3 w-[324px] h-[58px] text-[24px] font-medium'>
-          We are here to grow your business
+        <span className=' flex flex-col justify-center items-center text-white pt-3 w-[324px] h-[58px] text-[24px] font-medium'>
+          We are here to grow your 
+          <span className='flex justify-start items-center'>business <img src={image.src} alt="image" className='ml-1'/></span>
         </span>
         {/* Footer links */}
         <ul className='pt-[80px] font-[400] text-[18px] space-y-2'>
