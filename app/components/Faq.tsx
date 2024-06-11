@@ -34,7 +34,7 @@ const FAQs: React.FC = () => {
   };
 
   return (
-    <div className='pl-[17px] pr-[17px] h-[750px] flex flex-col justify-center items-center mt-[100px]'>
+    <div className=' pl-[17px] pr-[17px] h-[750px] flex flex-col justify-center items-center mt-[100px]'>
       {/* FAQ title */}
       <div className='w-[319px] h-[92px] text-[38px] font-medium mb-8'>
         Frequently asked questions

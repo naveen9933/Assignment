@@ -14,6 +14,7 @@ import Capabilities from './capabilities';
 import Trust from './trust';
 import Faq from './Faq'
 import Footer from './footer';
+import Comments from './comments'
 
 // Main component
 function Main() {
@@ -39,6 +40,7 @@ function Main() {
           <Capabilities />
           <Trust />
           <Faq />
+          <Comments/>
           <Footer />
         </>
       )}
